@@ -1,0 +1,38 @@
+ <lang>
+	<!-- Column names -->
+	<string reference="id" value="Id"></string>
+	<string reference="period" value="Períod"></string>
+	<string reference="year" value="Year"></string>
+	<string reference="group" value="Group"></string>
+	<string reference="name" value="Name"></string>
+	<string reference="firstname" value="First name"></string>
+	<string reference="lastname" value="Last name"></string>
+	<string reference="listnum" value="Number"></string>
+	<string reference="listnumber" value="Number"></string>
+	<string reference="hours" value="Hours"></string>
+	<string reference="subject" value="Subject"></string>
+	<string reference="evaluation" value="Evaluation"></string>
+	<string reference="average" value="Average"></string>
+	<string reference="anual_average" value="Anual average"></string>
+	<string reference="sex" value="Sex"></string>
+	<string reference="municipality" value="Municipality"></string>
+	<string reference="year_roll_pos" value="Year roll positions"></string>
+	<string reference="group_roll_pos" value="Group roll positions"></string>
+	<string reference="description" value="Description"></string>
+	<string reference="municipality__id" value="Municipality"></string>
+	<string reference="agroup__id" value="Group"></string>
+	<string reference="agroup__year_id" value="Year"></string>
+	<string reference="active" value="Active"></string>
+	<string reference="year__id" value="Year"></string>
+	<string reference="year_id" value="Year"></string>
+	<string reference="repitent" value="Repitent"></string>
+	<string reference="student_id" value="Student"></string>
+	<string reference="cause__id" value="Cause"></string>
+	<string reference="note" value="Note"></string>
+	<string reference="subject_id" value="Subject"></string>
+	<string reference="evaluation_id" value="Evaluation"></string>
+	<string reference="province__id" value="Province"></string>
+	<string reference="num" value="Number"></string>
+	<string reference="course__id" value="Course"></string>
+	<string reference="subject__id" value="Subject"></string>
+ </lang>

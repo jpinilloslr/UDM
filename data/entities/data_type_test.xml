@@ -1,0 +1,66 @@
+<entity tablename="data_type_test" defaultOrderField="id" logicDelete="false">
+	<field name="id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="true"
+			logicDeleteMark="false">
+	</field>
+	<field name="text"
+			defaultValue=""
+			type="string"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="int_number"
+			defaultValue="0"
+			type="integer"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="float_number"
+			defaultValue="0.0"
+			type="double"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="boolean"
+			defaultValue="false"
+			type="boolean"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="timestamp"
+			defaultValue="0"
+			type="datetime"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="date"
+			defaultValue="0"
+			type="date"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="time"
+			defaultValue="0"
+			type="time"
+			primaryKey="false"
+			required="false"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+</entity>

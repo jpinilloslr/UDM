@@ -1,0 +1,9 @@
+<parametersSelector>
+	<parameter text="Curso" name="period" type="string">
+		SELECT id, period FROM course ORDER BY id DESC;
+	</parameter>
+	
+	<parameter text="Año" name="year" dependency="period" type="integer">
+		SELECT id, num FROM year WHERE course__id=dependency;
+	</parameter>
+</parametersSelector>

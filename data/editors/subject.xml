@@ -1,0 +1,5 @@
+<editorParams>
+	<comboValues name="year__id">
+		select id, num from year where course__id = get_current_course_id();
+	</comboValues>
+</editorParams>

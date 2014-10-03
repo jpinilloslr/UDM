@@ -1,0 +1,11 @@
+ <viewsList>
+	<view viewName="students_per_group" name="Students per group" parameterSelector="test.xml"></view>
+	<view viewName="subjects_per_year" name="Subjects per year" parameterSelector="subjects_per_year.xml"></view>
+	<view viewName="evaluations_per_group" name="Evaluations per group" parameterSelector="evaluations_per_group.xml"></view>
+	<view viewName="students_final_average" name="Final notes" parameterSelector="students_final_average.xml"></view>
+	<view viewName="roll_positions" name="Roll positions" parameterSelector="roll_positions.xml"></view>
+	<view viewName="students_notes" name="Notes" parameterSelector=""></view>
+	<view viewName="suspended_students" name="Suspended students" parameterSelector="suspended_students.xml"></view>
+	<view viewName="out_students" name="Outs" parameterSelector="out_students.xml"></view>
+	<view viewName="repitents_per_group" name="Repitents per group" parameterSelector="repitents_per_group.xml"></view>
+ </viewsList>

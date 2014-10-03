@@ -1,0 +1,14 @@
+ <managersList>
+	<manager name="Course" entity="course.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Year" entity="year.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Group" entity="agroup.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Student" entity="student.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Subject" entity="subject.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Evaluation" entity="evaluation.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="StudSubEval" entity="studsubeval.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Out" entity="out.xml" showInsertOption="false" showEditOption="false" showDeleteOption="true" ></manager>
+	<manager name="Out cause" entity="cause.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Municipality" entity="municipality.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Province" entity="province.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+	<manager name="Data types test" entity="data_type_test.xml" showInsertOption="true" showEditOption="true" showDeleteOption="true" ></manager>
+ </managersList>

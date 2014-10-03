@@ -1,0 +1,29 @@
+<entity tablename="municipality" defaultOrderField="id" logicDelete="false">
+	<field name="id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="true"
+			logicDeleteMark="false">
+	</field>
+	<field name="name"
+			defaultValue=""
+			type="string"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="province__id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+			<fk_info entity="province.xml"
+						referencedField="id"
+						substituteField="name">
+			</fk_info>	</field>
+</entity>

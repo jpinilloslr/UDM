@@ -1,0 +1,187 @@
+ <lang>	
+	<!-- Managers -->
+	<string reference="Course" value="Curso"></string>
+	<string reference="Year" value="Año"></string>
+	<string reference="Group" value="Grupo"></string>
+	<string reference="Group" value="Grupo"></string>
+	<string reference="Student" value="Estudiante"></string>
+	<string reference="Subject" value="Asignatura"></string>
+	<string reference="Evaluation" value="Evaluación"></string>
+	<string reference="StudSubEval" value="EstAsigEval"></string>
+	<string reference="Out" value="Baja"></string>
+	<string reference="Out cause" value="Causa de baja"></string>
+	<string reference="Municipality" value="Municipio"></string>
+	<string reference="Province" value="Provincia"></string>
+	
+	<!-- Lists -->
+	<string reference="Students per group" value="Estudiantes por grupo"></string>
+	<string reference="Subjects per year" value="Asignaturas por año"></string>
+	<string reference="Evaluations per group" value="Evaluaciones por grupo"></string>
+	<string reference="Final notes" value="Notas finales"></string>
+	<string reference="Roll positions" value="Escalafón"></string>
+	<string reference="Notes" value="Certificado de notas"></string>
+	<string reference="Suspended students" value="Estudiantes suspensos"></string>
+	<string reference="Outs" value="Bajas"></string>
+	<string reference="Repitents per group" value="Repitentes por grupo"></string>
+	
+	<!-- Column names -->
+	<string reference="id" value="Id"></string>
+	<string reference="period" value="Período"></string>
+	<string reference="year" value="Año"></string>
+	<string reference="group" value="Grupo"></string>
+	<string reference="name" value="Nombre"></string>
+	<string reference="firstname" value="Primer apellido"></string>
+	<string reference="lastname" value="Segundo apellido"></string>
+	<string reference="listnum" value="Número"></string>
+	<string reference="listnumber" value="Número"></string>
+	<string reference="hours" value="Horas"></string>
+	<string reference="subject" value="Asignatura"></string>
+	<string reference="evaluation" value="Evaluación"></string>
+	<string reference="average" value="Promedio"></string>
+	<string reference="anual_average" value="Promedio anual"></string>
+	<string reference="sex" value="Sexo"></string>
+	<string reference="municipality" value="Municipio"></string>
+	<string reference="year_roll_pos" value="Escalafón del año"></string>
+	<string reference="group_roll_pos" value="Escalafón del grupo"></string>
+	<string reference="description" value="Descripción"></string>
+	<string reference="municipality__id" value="Municipio"></string>
+	<string reference="agroup__id" value="Grupo"></string>
+	<string reference="agroup__year_id" value="Año"></string>
+	<string reference="active" value="Activo"></string>
+	<string reference="year__id" value="Año"></string>
+	<string reference="year_id" value="Año"></string>
+	<string reference="repitent" value="Repitente"></string>
+	<string reference="student_id" value="Estudiante"></string>
+	<string reference="cause__id" value="Causa"></string>
+	<string reference="note" value="Nota"></string>
+	<string reference="subject_id" value="Asignatura"></string>
+	<string reference="evaluation_id" value="Evaluación"></string>
+	<string reference="province__id" value="Provincia"></string>
+	<string reference="num" value="Número"></string>
+	<string reference="course__id" value="Curso"></string>
+	<string reference="subject__id" value="Asignatura"></string>	
+	
+	<!-- Common -->
+	<string reference="Date and time formats" value="Formatos de fecha y hora"></string>
+	<string reference="Time format" value="Formato de hora"></string>
+	<string reference="Date format" value="Formato de fecha"></string>
+	<string reference="Date time format" value="Formato de fecha hora"></string>
+	<string reference="Required" value="Requerido"></string>
+	<string reference="Authentication" value="Autentificación"></string>
+	<string reference="Password" value="Contraseña"></string>
+	<string reference="User" value="Usuario"></string>
+	<string reference="Accept" value="Aceptar"></string>
+	<string reference="Cancel" value="Cancelar"></string>
+	<string reference="Ready" value="Listo"></string>
+	<string reference="File" value="Archivo"></string>
+	<string reference="Options" value="Opciones"></string>
+	<string reference="Connection settings" value="Configuración de conexión"></string>
+	<string reference="Disconnect" value="Desconectar"></string>
+	<string reference="Close" value="Cerrar"></string>
+	<string reference="Exit" value="Salir"></string>
+	<string reference="Develop" value="Desarrollo"></string>
+	<string reference="Entities" value="Entidades"></string>
+	<string reference="Parameterizers" value="Parametrizadores"></string>
+	<string reference="Name mapper" value="Mapa de nombres"></string>
+	<string reference="Window" value="Ventana"></string>
+	<string reference="Cascade" value="Cascada"></string>
+	<string reference="Horizontal layout" value="Despliegue horizontal"></string>
+	<string reference="Vertical layout" value="Despliegue vertical"></string>
+	<string reference="Close all" value="Cerrar todo"></string>
+	<string reference="Help" value="Ayuda"></string>
+	<string reference="About" value="Acerca de"></string>
+	<string reference="Administration" value="Administración"></string>
+	<string reference="Users" value="Usuarios"></string>
+	<string reference="Roles" value="Roles"></string>
+	<string reference="Managers" value="Gestores"></string>	
+	<string reference="Lists" value="Listados"></string>	
+	<string reference="Port" value="Puerto"></string>	
+	<string reference="Database" value="Base de datos"></string>	
+	<string reference="Save" value="Guardar"></string>	
+	<string reference="Interface" value="Interfáz"></string>	
+	<string reference="Theme" value="Tema"></string>	
+	<string reference="Hide autoincremental fields" value="Ocultar campos autoincrementales"></string>	
+	<string reference="Replace foreign keys with reference" value="Sustituir llaves foráneas por sus referencias"></string>	
+	<string reference="Execute" value="Ejecutar"></string>	
+	<string reference="Entities list" value="Lista de entidades"></string>	
+	<string reference="Managers list" value="Lista de gestores"></string>	
+	<string reference="Views list" value="Lista de vistas"></string>	
+	<string reference="Name" value="Nombre"></string>
+	<string reference="Entity" value="Entidad"></string>
+	<string reference="Insert" value="Insertar"></string>
+	<string reference="Edit" value="Editar"></string>
+	<string reference="Filter" value="Filtrar"></string>
+	<string reference="Delete" value="Eliminar"></string>
+	<string reference="Required access" value="Acceso requerido"></string>
+	<string reference="Default value" value="Valor por defecto"></string>
+	<string reference="Reference field" value="Campo de referencia"></string>
+	<string reference="Substitute field" value="Campo sustituto"></string>
+	<string reference="Field" value="Campo"></string>
+	<string reference="New entity" value="Nueva entidad"></string>
+	<string reference="Yes" value="Si"></string>
+	<string reference="New" value="Nuevo"></string>
+	<string reference="New field" value="Nuevo campo"></string>
+	<string reference="Table" value="Tabla"></string>
+	<string reference="Order by" value="Ordenar por"></string>
+	<string reference="Use logic delete" value="Usar borrado lógico"></string>
+	<string reference="Primary key" value="Llave primaria"></string>
+	<string reference="Autoincrement" value="Autoincremento"></string>
+	<string reference="Type" value="Tipo"></string>
+	<string reference="Foreign key" value="Llave foránea"></string>
+	<string reference="Logic delete mark" value="Marca de borrado lógico"></string>
+	<string reference="View" value="Vista"></string>
+	<string reference="List" value="Listado"></string>
+	<string reference="Parameterizer" value="Parametrizador"></string>
+	<string reference="Manage" value="Administrar"></string>
+	<string reference="Data" value="Datos"></string>
+	<string reference="Export" value="Exportar"></string>
+	<string reference="Refresh" value="Refrescar"></string>
+	<string reference="Search" value="Buscar"></string>
+	<string reference="All" value="Todo"></string>
+	<string reference="Language" value="Idioma"></string>
+	<string reference="Restore" value="Restaurar"></string>
+	<string reference="Permission" value="Permiso"></string>
+	<string reference="Access" value="Acceso"></string>
+	<string reference="Role" value="Rol"></string>
+	<string reference="Credentials" value="Credenciales"></string>
+	<string reference="New parameterizer" value="Nuevo parametrizador"></string>
+	<string reference="Field name" value="Nombre del campo"></string>
+	<string reference="Dependency" value="Dependencia"></string>
+	<string reference="record(s)" value="registro(s)"></string>
+	<string reference="Loading..." value="Cargando..."></string>
+	<string reference="Multi edition" value="Multi edición"></string>
+	
+	<string reference="Connection success." value="Conexión establecida."></string>
+	<string reference="There is no any common values in the selection." value="No se encontraron valores comunes en la selección."></string>
+	<string reference="Can not be empty fields in this form." value="No pueden haber campos en blanco."></string>
+	<string reference="Password is mandatory." value="La contraseña es obligatoria."></string>
+	<string reference="Access denied. Invalid user name or password." value="Nombre de usuario y/o contraseña incorrectos."></string>
+	<string reference="Must restart program for changes to take effect." value="Debe reiniciar el programa para ver algunos de los cambios."></string>
+	<string reference="Error connecting to database, check your connection settings." value="No se puede establecer comunicación con la base de datos, verifique la configuración de conexión."></string>
+	<string reference="Operation failure. Others entities depends on selected records." value="No se puede completar la operación porque otras entidades tienen dependencias con el elemento seleccionado."></string>
+	<string reference="Can not create entity with no fields." value="No se puede crear una entidad sin campos."></string>
+	<string reference="Password match error, please check it again." value="La contraseña no coincide, por favor verifíquela."></string>
+	<string reference="Password length must be no less than 8 characters." value="La contraseña debe tener al menos 8 caracteres."></string>
+	<string reference="Do you want to restore selected elements?" value="¿Desea restaurar los elementos seleccionados?"></string>
+	<string reference="Do you want to restore this element?" value="¿Desea restaurar este elemento?"></string>
+	<string reference="Do you want to delete selected elements?" value="¿Desea eliminar los elementos seleccionados?"></string>
+	<string reference="Do you want to delete this element?" value="¿Desea eliminar este elemento?"></string>	
+	<string reference="Do you want to save changes?" value="¿Desea guardar los cambios?"></string>
+	<string reference="Specified value can not be duplicated." value="El valor especificado no se puede repetir."></string>
+
+	<!-- Plugins -->
+	<string reference="Create out" value="Causar baja"></string>
+	<string reference="Cause" value="Causa"></string>
+	<string reference="Set notes" value="Asignar notas"></string>
+	<string reference="Note" value="Nota"></string>
+	<string reference="Notes" value="Notas"></string>
+	<string reference="Subject" value="Asignatura"></string>
+	<string reference="Student not found" value="Estudiante no encontrado"></string>
+	<string reference="Random data generator" value="Generador de datos aleatorios"></string>
+	<string reference="Create course" value="Crear curso"></string>
+	<string reference="Generate all" value="Generar todo"></string>
+	<string reference="Period:" value="Período:"></string>
+	<string reference="Deleting data..." value="Eliminando datos..."></string>
+	<string reference="Generating data, please wait..." value="Generando datos, por favor espere..."></string>
+	<string reference="Delete all" value="Eliminar todo"></string>
+ </lang>

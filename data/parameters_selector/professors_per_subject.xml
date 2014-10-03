@@ -1,0 +1,11 @@
+<parametersSelector>
+	<parameter text="Asignatura" name="subject" type="string">
+		SELECT id, name FROM subject;
+		<!-- Estas consultas son validadas cuidadosamente, de lo contario podrían representar un punto vulnerable en
+		la seguridad del sistema.!-->
+	</parameter>
+	
+	<parameter text="Departamento" name="department" type="string">
+		SELECT id, name FROM department;
+	</parameter>
+</parametersSelector>

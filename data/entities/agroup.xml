@@ -1,0 +1,37 @@
+<entity tablename="agroup" defaultOrderField="id" logicDelete="true">
+	<field name="id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="true"
+			logicDeleteMark="false">
+	</field>
+	<field name="year_id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+			<fk_info entity="year.xml"
+						referencedField="id"
+						substituteField="num">
+			</fk_info>	</field>
+	<field name="num"
+			defaultValue="0"
+			type="integer"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+	<field name="active"
+			defaultValue="true"
+			type="boolean"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="true">
+	</field>
+</entity>

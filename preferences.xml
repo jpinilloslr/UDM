@@ -1,0 +1,10 @@
+<preferences 
+replaceForeignKeyValues="true"
+hideAutoincrementalFields="true"
+currentThemeName="system"
+dateTimeFormat="dd/MMMMM/yyyy h:mm a"
+dateFormat="dd/MMMMM/yyyy"
+timeFormat="h:mm a"
+language="English"
+lastLoggedUsername="su">
+</preferences>

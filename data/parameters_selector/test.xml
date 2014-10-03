@@ -1,0 +1,12 @@
+ <parametersSelector>
+	<parameter name="period" dependency="" type="string">
+		select id, period from course
+	</parameter>
+	<parameter name="year" dependency="period" type="integer">
+		select id, num from year where course__id=dependency
+
+	</parameter>
+	<parameter name="group" dependency="year" type="integer">
+		select id, num from agroup where year_id=dependency
+	</parameter>
+ </parametersSelector>

@@ -1,0 +1,13 @@
+<editorParams>
+	<comboValues name="agroup__year_id">
+		select id, num from year where course__id = get_current_course_id();
+	</comboValues>
+	
+	<comboValues name="agroup__id" dependency="agroup__year_id">
+		select id, num from agroup where year_id = dependency;
+	</comboValues>
+	
+	<forceAsCombo name="sex">
+		M,F
+	</forceAsCombo>
+</editorParams>

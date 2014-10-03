@@ -1,0 +1,18 @@
+<entity tablename="province" defaultOrderField="id" logicDelete="false">
+	<field name="id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="true"
+			logicDeleteMark="false">
+	</field>
+	<field name="name"
+			defaultValue=""
+			type="string"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+	</field>
+</entity>

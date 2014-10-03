@@ -1,0 +1,5 @@
+<editorParams>
+	<comboValues name="course__id">
+		select id, period from course where id = get_current_course_id();
+	</comboValues>
+</editorParams>

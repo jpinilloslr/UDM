@@ -1,0 +1,14 @@
+ <parametersSelector>
+	<parameter name="period" text="Curso" dependency="" type="string">
+		SELECT id, period FROM course ORDER BY id DESC;
+	</parameter>
+	<parameter name="year" text="Año" dependency="period" type="integer">
+		SELECT id, num FROM year WHERE course__id=dependency;
+	</parameter>
+	<parameter name="group" text="Grupo" dependency="year" type="integer">
+		SELECT id, num FROM agroup WHERE year_id=dependency;
+	</parameter>
+	<parameter name="description" text="Causa" dependency="" type="string">
+		select id, description from cause
+	</parameter>
+ </parametersSelector>

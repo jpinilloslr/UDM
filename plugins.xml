@@ -1,0 +1,5 @@
+<plugins_list>
+	<plugin name="SetNotes.jar" type="context" window="table.student" multiSelect="false"></plugin>
+	<plugin name="CreateOut.jar" type="context" window="table.student" multiSelect="true"></plugin>
+	<plugin name="RandomDataGenerator.jar" type="menu" parent="Debug"></plugin>
+</plugins_list>

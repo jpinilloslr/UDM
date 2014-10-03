@@ -1,0 +1,14 @@
+model
+model.db
+model.db.auth
+model.db.entities
+model.managers
+model.plugin
+model.views
+view
+view.builder
+view.editors
+view.managers
+view.tools
+view.utils
+view.views

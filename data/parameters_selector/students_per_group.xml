@@ -1,0 +1,13 @@
+ <parametersSelector>
+	<parameter name="period" dependency="" type="string">
+		SELECT id, period FROM course  
+WHERE id = get_current_course_id()
+ORDER BY id DESC;
+	</parameter>
+	<parameter name="year" dependency="period" type="integer">
+		SELECT id, num FROM year WHERE course__id=dependency;
+	</parameter>
+	<parameter name="group" dependency="year" type="integer">
+		SELECT id, num FROM agroup WHERE year_id=dependency;
+	</parameter>
+ </parametersSelector>

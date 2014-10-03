@@ -1,0 +1,35 @@
+<entity tablename="studsubeval" defaultOrderField="subject_id" logicDelete="false">
+	<field name="subject_id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+			<fk_info entity="subject.xml"
+						referencedField="id"
+						substituteField="name">
+			</fk_info>	</field>
+	<field name="student_id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="true"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+			<fk_info entity="student.xml"
+						referencedField="id"
+						substituteField="id">
+			</fk_info>	</field>
+	<field name="evaluation_id"
+			defaultValue="0"
+			type="integer"
+			primaryKey="false"
+			required="true"
+			autoinc="false"
+			logicDeleteMark="false">
+			<fk_info entity="evaluation.xml"
+						referencedField="id"
+						substituteField="note">
+			</fk_info>	</field>
+</entity>
